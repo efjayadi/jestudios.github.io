@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Project | Mie Cobek</title>
+    <link rel="icon" href="img/fav.png" type="image/x-icon">
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="ionicons/css/ionicons.min.css" rel="stylesheet">
+
+    <!-- main css -->
+    <link href="css/style.css" rel="stylesheet">
+
+
+    <!-- modernizr -->
+    <script src="js/modernizr.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	<style>
+	.wadah{
+	display: flex;
+  justify-content: center;
+  margin-bottom:-200px;
+  }
+	.layers {
+  width: 460px;
+  height: 640px;
+  background: rgba(0, 0, 0, 0);
+  transform: rotate(-30deg) skew(25deg) scale(0.8);
+  transition: 0.5s;
+  
+}
+.layers img {
+  position: absolute;
+  margin-top:-100px;
+  margin-left:-150px;
+  width: 100%;
+  transition: 0.5s;
+}
+.layers:hover img:nth-child(5) {
+  transform: translate(160px, -160px);
+  opacity: 0.95;
+  }
+.layers:hover img:nth-child(4) {
+  transform: translate(140px, -140px);
+  opacity: 0.9;
+  }
+.layers:hover img:nth-child(3) {
+  transform: translate(110px, -110px);
+  opacity: 0.85;
+}
+.layers:hover img:nth-child(2) {
+  transform: translate(80px, -80px);
+  opacity: 0.8;
+}
+.layers:hover img:nth-child(1) {
+  transform: translate(40px, -40px);
+  opacity: 1;
+ box-shadow: -36px 34px 31px -6px rgba(0,0,0,0.58);
+-webkit-box-shadow: -36px 34px 31px -6px rgba(0,0,0,0.58);
+-moz-box-shadow: -36px 34px 31px -6px rgba(0,0,0,0.58);
+}
+	</style>
+</head>
+
+<body>
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="pre-container">
+            <div class="spinner">
+                <div class="double-bounce1"></div>
+                <div class="double-bounce2"></div>
+            </div>
+        </div>
+    </div>
+    <!-- end Preloader -->
+
+    <div class="container-fluid">
+       <!-- box-header -->
+        <header class="box-header">
+            <div class="box-logo">
+                <a href="index.html"><img src="img/logo.png" width="80" alt="Logo"></a>
+            </div>
+            <!-- box-nav -->
+            <a class="box-primary-nav-trigger" href="#0">
+                <span class="box-menu-text">Menu</span><span class="box-menu-icon"></span>
+            </a>
+            <!-- box-primary-nav-trigger -->
+        </header>
+        <!-- end box-header -->
+        
+        <!-- nav -->
+        <nav>
+            <ul class="box-primary-nav">
+                <li class="box-label">About me</li>
+
+                <li><a href="index.html">Intro</a> <i class="ion-ios-circle-filled color"></i></li>
+                <li><a href="img/cv.png">My CV</a></li>
+                <li><a href="services.html">services</a></li>
+                <li><a href="portfolio.html">portfolio</a></li>
+                <li><a href="contact.html">contact me</a></li>
+
+
+
+                <li class="box-label">Follow me</li>
+<li class="box-social"><a href="http://wa.me/6283192054797"><i class="ion-social-whatsapp"></i></a></li>
+                <li class="box-social"><a href="http://facebook.com/jaya.d.fajar"><i class="ion-social-facebook"></i></a></li>
+                <li class="box-social"><a href="http://instagram.com/efjayadi">
+				<i class="ion-social-instagram-outline"></i></a></li>
+                
+            </ul>
+        </nav>
+        <!-- end nav -->
+    
+    <!-- top-bar -->
+	<div class="wadah">
+    <div class="top-bar">
+         <div class="layers">
+    <img src="img/mcp/1.png">
+    <img src="img/mcp/2.png">
+    <img src="img/mcp/3.png">
+    <img src="img/mcp/4.png">
+    <img src="img/mcp/5.png">
+  </div>
+    </div>
+	</div>
+
+    <style>
+	.poto img{
+	width:24.3%;
+	border-radius:10px;
+}
+	</style>
+	
+    <!-- main-container -->
+    <div class="poto" style="display:flex;justify-content:center;align-items:flex-end;width:100%;">
+  <div>
+       <!-- single work -->
+         <<img src="img/mcp/cwp-mcp.png" alt="X Banner">
+			   <img src="img/mcp/cwp-mcm.png" alt="Menu">
+			   <img src="img/mcp/cwp-mcd.png" alt="Flyer">
+			   <img src="img/mcp/cwxb-mcp.png" alt="X Banner">>
+    </div></div>
+    <!-- end main-container -->
+
+
+    <!-- footer -->
+    <footer>
+        <div class="container-fluid">
+            <p class="copyright">© Fajar Jayadi 2021</p>
+        </div>
+    </footer>
+    <!-- end footer -->
+    
+    <!-- back to top -->
+    <a href="#0" class="cd-top"><i class="ion-android-arrow-up"></i></a>
+    <!-- end back to top -->
+
+
+
+
+    <!-- jQuery -->
+    <script src="js/jquery-2.1.1.js"></script>
+    <!--  plugins -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/animated-headline.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+
+
+    <!--  custom script -->
+    <script src="js/custom.js"></script>
+
+</body>
+
+</html>
